@@ -12,7 +12,7 @@ import java.util.List;
 @Table(name = "rooms")
 public class Room {
 
-
+    //Veri tabanı tanımlamaları
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
